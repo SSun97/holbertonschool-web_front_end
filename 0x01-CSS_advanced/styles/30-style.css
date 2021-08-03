@@ -117,8 +117,8 @@ a:active {
 .card-work .card-image img {
   height: 30rem;
   width: 100%;
-  --obhect-fit: cover;
-  bottom: 0;
+  --object-fit: cover;
+  vertical-align: bottom;
 }
 
 .card-work .card-inner {
