@@ -86,6 +86,7 @@ a:active {
 	background: var(--button-hover-background);
   animation-duration: var(--transition-duration);
   transition-property: color, background-color;
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .visually-hidden {
@@ -144,11 +145,12 @@ a:active {
   left: -0.1rem;
   right: -0.1rem;
   z-index: 1;
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
   background-color: rgba(0, 0, 0, 0.7);
-  transition: var(--transition-duration) var(--transition-cubic-bezier);
+
 }
 
 .card-work .card-title {
