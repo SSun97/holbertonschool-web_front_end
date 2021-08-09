@@ -1,0 +1,10 @@
+// Nested child
+$body_color: #3d3d3d;
+$red_as_first_child_color: #ff0000;
+
+body {
+  color: $body_color;
+  >.red {
+    color: $red_as_first_child_color;
+  }
+}
