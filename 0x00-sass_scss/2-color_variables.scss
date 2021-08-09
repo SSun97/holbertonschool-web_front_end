@@ -1,0 +1,13 @@
+// Write a Sass file that assigns different variables
+$color: #3D3D3D;
+$background-color: #6d6d6d;
+
+body,
+p {
+  color: $color;
+}
+
+body,
+h2 {
+  background-color: $background-color;
+}
