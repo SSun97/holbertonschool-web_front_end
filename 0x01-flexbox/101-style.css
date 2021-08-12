@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.box {
+  width: 10rem;
+  height: 8rem;
+  font-size: 20vi;
+  text-align: center;
+  line-height: 20rem;
+  color: white;
+  align-content: center;
+}
+
+.box1 {
+  background: #1fcd6c;
+}
+
+.box2 {
+  background: #2d98de;
+
+}
+
+.box3 {
+  background: #344a61;
+  font-size: 5rem;
+  width: 25rem;
+  height: 20rem;
+}
+
+
+.box4 {
+  background: #9d55b9;
+}
+
+.box5 {
+  background: #ea7d04;
+}
+
+.box2, .box4 {
+  font-size: 4rem;
+  flex-basis: 20rem;
+  height: 15rem;
+  align-self: center;
+  align-content: center;
+  line-height: 15rem;
+}
+
+.box1, .box5 {
+  font-size: 3rem;
+  flex-basis: 12rem;
+  height: 9rem;
+  align-self: center;
+  align-content: center;
+  line-height: 9rem;
+}
