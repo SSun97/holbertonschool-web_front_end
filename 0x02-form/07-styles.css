@@ -228,6 +228,7 @@
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
+    white-space: nowrap;
   }
   
   .nav .nav-item + .nav-item {
