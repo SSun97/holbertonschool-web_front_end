@@ -1,0 +1,32 @@
+.btn-primary {
+    background-color: #e0003c;
+}
+
+.btn-outline-primary {
+    border-color:  #e0003c;
+    color: #e0003c;
+}
+
+a {
+    color: #e0003c;
+}
+
+.card {
+    border-color: #e0003c;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #e0003c;
+    color: white;
+}
+
+.text-muted {
+    color: #8c8c8c;
+}
+
+.border-bottom,
+.border-top {
+    border-color: #e0003c !important;
+}
