@@ -14,7 +14,7 @@ isPrime(2);
 function countPrimeNumbers() {
     let count = 0;
 
-    for(i = 2; i < 1000; i++) {
+    for(i = 2; i < 100; i++) {
         if (isPrime(i) == true)
             count++
     }
@@ -22,6 +22,9 @@ function countPrimeNumbers() {
 }
 
 const t0 = performance.now();
-countPrimeNumbers();
+
+for(let i = 0; i < 100; i++){
+    countPrimeNumbers();
+}
 const t1 = performance.now();
 console.log(`Execution time of printing countPrimeNumbers was ${t1 - t0} milliseconds.`);
